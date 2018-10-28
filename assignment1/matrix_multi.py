@@ -46,4 +46,3 @@ x = []
 y = [[5, 6]]
 
 print(Matrix().multi(x, y))
-

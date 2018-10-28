@@ -11,7 +11,8 @@ def eval_numerical_gradient(f, x, verbose=True, h=0.00001):
     - x is the point (numpy array) to evaluate the gradient at
     """
 
-    fx = f(x)  # evaluate function value at original point
+    fx = f(x)  # evaluate function value at original point # 总的 loss
+    print('loss: ', fx)
     grad = np.zeros_like(x)
     # iterate over all indexes in x
     it = np.nditer(x, flags=['multi_index'], op_flags=['readwrite'])
