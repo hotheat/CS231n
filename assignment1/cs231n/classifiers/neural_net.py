@@ -12,6 +12,13 @@ class TwoLayerNet(object):
     weight matrices. The network uses a ReLU nonlinearity after the first fully
     connected layer.
 
+
+
+
+
+
+
+
     In other words, the network has the following architecture:
 
     input - fully connected layer - ReLU - fully connected layer - softmax
